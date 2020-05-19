@@ -1,0 +1,98 @@
+body {
+    background-image: url("./images/moviebg.png.");
+} /* 홈페이지에 전체적인 배경화면을 입히는 body css */
+p {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+} /* 전반적인 폰트 크기와 글체를 조정 */
+#banner{
+    background-image: url("./images/rancidbannerbg.png.");
+    text-align: center; 
+    background-repeat: repeat-x;
+    height: 50px;
+    } /* 맨 위에 부분 배경을 입혀주는 css */
+h1{
+    font-size: 24pt;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  /* Lion king ( 1994 ) 에 요구사항을 만족시키는 css */
+#page{
+    width:55%;
+    margin:0 auto;
+    box-shadow: 5px 5px 5px gray;
+    background: #EEEEEE;
+    } /* 주요 내용을 전체적으로 담은 박스로 요구사항에서 홈페이지의 55퍼센트를 맞추기 위해서 width , margin 사용 */
+#partikle {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+} /* page 박스 안에서 왼쪽 과 오른쪽 부분을 flex 시키기 위한 css */
+#rating{
+    margin-bottom: 1rem;
+    text-align: left;
+    background-image: url("./images/rottenlargebg.png.");
+    background-repeat: repeat-x;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    height : 83px;
+} /* 왼쪽 부분에서 가장 위에 해당하는 css */
+#rateimage{
+    float: left;
+} /* rating 박스안에 있는 이미지를 플로팅 */
+#reviewcolumn{
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    width: 90%;
+} /* rating 박스 아래에 해당하는 부분으로 비평가들의 비평이 담긴 박스 css 역시 요구사항을 만족 시키기 위해서 width 와 margin 사용 그리고 이번에는 수직정렬을 위한 coloumn flex  */
+.quotebubble{
+    padding:1em;
+    font-size:13pt;
+    margin-bottom: 0;
+    font-family:  Georgia;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+} /* 인용구가 담긴 말풍선 부분으로 border style 사용 */
+.quotebubbleimg{
+    float:left;
+    padding-right: 5px;
+} /* 왼쪽 페이지의 이미지와 텍스트를 5px 만큼 분리시키기 위한 css와 플로팅 사용 */
+.reviewer{
+    font-size:13pt;
+} /* 비평가의 개인정보 담긴 폰트크기 */
+.publication{
+    font-style: italic;
+} /* 출판사는 글체가 따로 정해짐 */
+.partikle2 {
+    width: 250px;
+    font-size : 12pt;
+    background-color: #A2B964;
+} /* 우측 부분으로 여기는 배경과 가로 크기가 정해져야하므로 왼쪽과는 달리 전체적으로 css조정 */
+dl{
+    margin :15px;
+} /* 요구사항에 적힌대로 우측 부분의 텍스트부분을 가장자리와 15px만큼 분리시키기 위한 css */
+dt{
+
+    font-weight: bold;
+    margin-top: 15px;
+} /* 요구사항에 적힌대로 볼드체와 위 아래 15px 분리 */
+a:visited {
+    color: blue;
+} /* 요구사항대로 하이퍼링크부분은 변하지 않아야하므로 원래색인 블루 입힘 */
+ul{
+    list-style:none;
+    padding-left:0px;
+} /* 이 역시 하이퍼링크 부분은 들어가야 하지 않으므로 패딩 부분 삭제 */
+footer {
+    text-align: center;
+    background: #A2B964;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+} /* 맨 아래에 해당하는 footer 부분 */
+#w3c{
+    text-align: right;
+} /* w3c 오른쪽 정렬 */

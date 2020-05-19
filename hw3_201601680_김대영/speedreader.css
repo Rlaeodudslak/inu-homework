@@ -1,0 +1,75 @@
+/*
+		this is my 3rd homework 
+		part css
+*/
+
+body{
+    background-color: #EAF6F6;
+    font-family: "Garamond";
+    font-size: 12pt;
+    margin :0;
+}
+h1{
+    text-align: center;
+}
+#speedtester{
+    width:80%;
+    height:100px;
+    margin: auto;
+    font-size:36pt;
+    font-weight: bold;
+    font-family: monospace;
+
+    border: 2px solid #8EBEBE ;
+    border-radius: 5px;
+
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+}
+.fieldset{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin : 10px;
+}
+.detail{
+    margin-left : 10px;
+    margin-right: 10px;
+    height: 44px;
+}
+.detailtitle{
+    border-bottom : 1px solid #8EBEBE;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 2px;
+    width: 100%;
+}
+.button{
+    background-color: #FFFFFF;
+    width: 70px;
+    border: 1px solid gray;
+    margin: 2px;
+}
+#select{
+    margin: 2px;
+}
+#textareabox{
+    display:flex;
+    margin:2px;
+
+}
+#w3c{
+    display:flex;
+    margin: 5px;
+    position: fixed;
+    left: 5px;
+    bottom : 5px;
+}
+.button:disabled{
+    background-color : lightgray;
+}
+.button:enabled{
+    background-color : white;
+}

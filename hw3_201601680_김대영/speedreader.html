@@ -1,0 +1,62 @@
+<!DOCTYPE html >
+<html lang="en"> 
+	<!--
+		this is my 3rd homework 
+		part html
+	-->
+	
+	<head>
+		<link rel="stylesheet" type="text/css" href="speedreader.css" />
+		<script src="speedreader.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>SpeedReader</title>
+		<meta name="author" content="김대영">
+	</head>
+
+	<body>
+		<h1>SpeedReader</h1> <!-- heading text -->
+		<div id = 'speedtester'> <!-- will be displayed text field -->
+				
+		</div>
+
+		<div class = 'fieldset'> <!-- control field -->
+			<div class = 'detail'> <!-- control field start or stop -->
+				<p class = 'detailtitle'>Play Control: </p>
+				<input type ="button" name ="start" value="start" class ='button' id = 'startbutton'>
+				<input type ="button" name ="stop"  value="stop " class ='button' id = 'stopbutton' >
+			</div>
+			<div class = 'detail'> <!-- control field select speed -->
+				<p class = 'detailtitle'>Speed: </p>
+				<select name="Speed" id ='select'>
+					<option value="1200">50 wpm</option>
+					<option value="200">300 wpm</option>
+					<option value="171" selected>350 wpm</option>
+					<option value="150">400 wpm</option>
+					<option value="133">450 wpm</option>
+					<option value="120">500 wpm</option>
+				</select>
+			</div>
+			<div class = 'detail'> <!-- control field select font size -->
+				<p class = 'detailtitle'>Size: </p>
+					<input type="radio" name="size_chk" value="36pt" id = 'medium' checked>Medium
+					<input type="radio" name="size_chk" value="48pt" id = 'big'>Big
+					<input type="radio" name="size_chk" value="60pt" id = 'bigger'>Bigger
+			</div>
+		</div>
+
+		<div class ='fieldset'> <!-- intput text field -->
+			<div class ='detail'>
+				<p class = 'detailtitle'>Input Text: </p>
+				<div>
+					<textarea id="textareabox" rows=10 cols=80></textarea>
+				</div>
+			</div>
+		</div>
+
+		<div id="w3c">
+			<a href="https://validator.w3.org/#validate_by_input"><img src="./images/w3c-html.png" alt="Valid HTML5" /></a><br />
+			<a href="http://jigsaw.w3.org/css-validator/#validate_by_input"><img src="./images/w3c-css.png" alt="Valid CSS" /></a>
+			<a href="http://www.jslint.com/"><img src="./images/w3c-js.png" alt="Valid CSS" /></a>
+		</div>
+	</body>
+</html>
